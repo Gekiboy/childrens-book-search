@@ -1,0 +1,32 @@
+html,
+body {
+  height: fit-content;
+}
+
+body {
+  width: 200px;
+}
+
+input[type="text"] {
+  width: 100%;
+}
+
+#sites {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-inline: unset;
+}
+
+#sites li {
+  font-size: 13px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#buttons button {
+  margin-left: 2px;
+}
